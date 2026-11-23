@@ -1,0 +1,14 @@
+# 排除編輯器設定與系統暫存
+.vscode/
+__pycache__/
+
+# 排除備份、訓練紀錄與測試素材
+backup/
+runs/
+test_media/
+
+# 排除超過 100MB 的大檔（CLIP 權重與影片檔）
+weights/
+ViT-B-32.pt
+*.MOV
+*.mp4
